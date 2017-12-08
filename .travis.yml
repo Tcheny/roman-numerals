@@ -2,7 +2,5 @@ language: node_js
 node_js:
   - "8.9.1"
 before_script:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version version-number
-  - export PATH="$HOME/.yarn/bin:$PATH"
-  - yarn add mocha chai
-script: yarn test
+  - npm install mocha chai
+script: npm test

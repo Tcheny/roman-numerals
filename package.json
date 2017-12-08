@@ -1,7 +1,6 @@
 {
   "name": "Travis",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:Tcheny/roman-numerals.git",
   "author": "Tcheny <eugenie.be@hotmail.fr>",
   "license": "MIT",
